@@ -10,7 +10,7 @@ class ProductList extends StatefulWidget {
 
 class _ProductListState extends State<ProductList> {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return Center(
       child: Card(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
