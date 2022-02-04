@@ -10,7 +10,7 @@ class ProductList extends StatefulWidget {
 
 class _ProductListState extends State<ProductList> {
   @override
-  Widget build(BuildContext context) { 
+  Widget build(BuildContext context) {
     return Center(
       child: Card(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
@@ -25,7 +25,7 @@ class _ProductListState extends State<ProductList> {
             ),
             title: Text(widget.data1.productname.toString()),
             subtitle: Text('Product Id: ${widget.data1.productid}'),
-            trailing: Text('RS: ${widget.data1.price}'),
+            trailing: Text('Dollar: ${widget.data1.price}'),
             onTap: () {},
           ),
         ),
