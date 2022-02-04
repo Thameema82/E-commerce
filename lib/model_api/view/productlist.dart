@@ -24,7 +24,7 @@ class _ProductListState extends State<ProductList> {
               height: 50,
             ),
             title: Text(widget.data1.productname.toString()),
-            subtitle: Text('Product Id: ${widget.data1.productid}'),
+            subtitle: Text('Product ID: ${widget.data1.productid}'),
             trailing: Text('Dollar: ${widget.data1.price}'),
             onTap: () {},
           ),
