@@ -16,11 +16,12 @@ class StyleState extends State<Style> {
       ),
       body: Column(
         children: [
-         const Center(
-              child: Text(
-            'hlloo how are you',
-            style: TextStyle(fontFamily: 'myfont'),
-          ),),
+          const Center(
+            child: Text(
+              'hlloo how are youu',
+              style: TextStyle(fontFamily: 'myfont'),
+            ),
+          ),
           Container(
             child: Image(image: AssetImage('assets/image/avatar2.png')),
           )
