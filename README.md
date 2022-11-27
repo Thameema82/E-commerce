@@ -12,7 +12,7 @@ A Very Good Project created by Very Good CLI.
 
 ## Getting Started 🚀
 
-This project contains 3 flavors:
+This project :
 
 - development
 - staging
